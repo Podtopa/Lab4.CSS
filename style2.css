@@ -1,0 +1,36 @@
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-size:15px;
+    font-family:"Courier New", serif;
+}
+
+th {
+    background-color: #1ea9e0;
+    color: white;
+}
+
+td:first-child {
+    background-color: #1ea9e0;
+    color: white;
+}
+
+ tr:nth-child(even) {
+    background-color: rgba(239, 203, 72, 0.98);
+}
+
+tr:nth-child(odd) {
+    background-color: #f5a8b6;
+}
